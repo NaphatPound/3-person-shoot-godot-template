@@ -87,6 +87,8 @@ Variants="*res://scripts/systems/variants.gd"
 Score="*res://scripts/systems/score.gd"
 ScoreHUD="*res://scripts/ui/score_hud.gd"
 PauseMenu="*res://scripts/ui/pause_menu.gd"
+Market="*res://scripts/systems/market.gd"
+MarketToast="*res://scripts/ui/market_toast.gd"
 
 [display]
 
