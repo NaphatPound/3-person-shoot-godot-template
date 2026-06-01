@@ -86,6 +86,7 @@ TensionFX="*res://scripts/ui/tension_fx.gd"
 Variants="*res://scripts/systems/variants.gd"
 Score="*res://scripts/systems/score.gd"
 ScoreHUD="*res://scripts/ui/score_hud.gd"
+PauseMenu="*res://scripts/ui/pause_menu.gd"
 
 [display]
 
