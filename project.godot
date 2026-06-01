@@ -21,6 +21,8 @@ GameInput="*res://scripts/game_input.gd"
 ItemDB="*res://scripts/systems/item_db.gd"
 Inventory="*res://scripts/systems/inventory.gd"
 InventoryUI="*res://scripts/ui/inventory_ui.gd"
+SurvivalStats="*res://scripts/systems/survival_stats.gd"
+SurvivalHUD="*res://scripts/ui/survival_hud.gd"
 
 [display]
 
