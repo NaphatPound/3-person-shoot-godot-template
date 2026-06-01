@@ -34,6 +34,8 @@ Quests="*res://scripts/systems/quests.gd"
 QuestTracker="*res://scripts/ui/quest_tracker.gd"
 Crafting="*res://scripts/systems/crafting.gd"
 CraftingUI="*res://scripts/ui/crafting_ui.gd"
+Ammo="*res://scripts/systems/ammo.gd"
+AmmoHUD="*res://scripts/ui/ammo_hud.gd"
 
 [display]
 
