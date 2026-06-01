@@ -36,6 +36,8 @@ Crafting="*res://scripts/systems/crafting.gd"
 CraftingUI="*res://scripts/ui/crafting_ui.gd"
 Ammo="*res://scripts/systems/ammo.gd"
 AmmoHUD="*res://scripts/ui/ammo_hud.gd"
+SaveSystem="*res://scripts/systems/save_system.gd"
+SaveToast="*res://scripts/ui/save_toast.gd"
 
 [display]
 
