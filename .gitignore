@@ -4,3 +4,6 @@
 
 # Web export output (regenerate with: godot --export-release "Web" build/web/index.html)
 /build/
+
+# Local tooling state (Claude Code session/scheduler lock, etc.)
+.claude/

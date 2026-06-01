@@ -18,6 +18,9 @@ config/icon="res://icon.svg"
 [autoload]
 
 GameInput="*res://scripts/game_input.gd"
+ItemDB="*res://scripts/systems/item_db.gd"
+Inventory="*res://scripts/systems/inventory.gd"
+InventoryUI="*res://scripts/ui/inventory_ui.gd"
 
 [display]
 
