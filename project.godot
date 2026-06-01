@@ -89,6 +89,8 @@ ScoreHUD="*res://scripts/ui/score_hud.gd"
 PauseMenu="*res://scripts/ui/pause_menu.gd"
 Market="*res://scripts/systems/market.gd"
 MarketToast="*res://scripts/ui/market_toast.gd"
+Rescues="*res://scripts/systems/rescues.gd"
+RescueToast="*res://scripts/ui/rescue_toast.gd"
 
 [display]
 
