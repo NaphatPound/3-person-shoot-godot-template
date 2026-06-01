@@ -64,6 +64,8 @@ Difficulty="*res://scripts/systems/difficulty.gd"
 DifficultyHUD="*res://scripts/ui/difficulty_hud.gd"
 Grenades="*res://scripts/systems/grenades.gd"
 GrenadesHUD="*res://scripts/ui/grenades_hud.gd"
+Flashlight="*res://scripts/systems/flashlight.gd"
+FlashlightHUD="*res://scripts/ui/flashlight_hud.gd"
 
 [display]
 
