@@ -101,6 +101,7 @@ ThirstHUD="*res://scripts/ui/thirst_hud.gd"
 Radio="*res://scripts/systems/radio.gd"
 RadioHUD="*res://scripts/ui/radio_hud.gd"
 ZombieGlow="*res://scripts/systems/zombie_glow.gd"
+Compass="*res://scripts/ui/compass.gd"
 
 [display]
 
