@@ -66,6 +66,8 @@ Grenades="*res://scripts/systems/grenades.gd"
 GrenadesHUD="*res://scripts/ui/grenades_hud.gd"
 Flashlight="*res://scripts/systems/flashlight.gd"
 FlashlightHUD="*res://scripts/ui/flashlight_hud.gd"
+Perks="*res://scripts/systems/perks.gd"
+PerksUI="*res://scripts/ui/perks_ui.gd"
 
 [display]
 
