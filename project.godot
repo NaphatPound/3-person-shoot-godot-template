@@ -28,6 +28,8 @@ Interaction="*res://scripts/systems/interaction.gd"
 Currency="*res://scripts/systems/currency.gd"
 Merchant="*res://scripts/systems/merchant.gd"
 MerchantUI="*res://scripts/ui/merchant_ui.gd"
+Weapons="*res://scripts/systems/weapons.gd"
+WeaponUI="*res://scripts/ui/weapon_ui.gd"
 
 [display]
 
