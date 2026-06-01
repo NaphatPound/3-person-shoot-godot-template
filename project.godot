@@ -58,6 +58,8 @@ Stats="*res://scripts/systems/stats.gd"
 StatsUI="*res://scripts/ui/stats_ui.gd"
 NoiseMeter="*res://scripts/systems/noise.gd"
 NoiseHUD="*res://scripts/ui/noise_hud.gd"
+Barricades="*res://scripts/systems/barricades.gd"
+BarricadesHUD="*res://scripts/ui/barricades_hud.gd"
 
 [display]
 
