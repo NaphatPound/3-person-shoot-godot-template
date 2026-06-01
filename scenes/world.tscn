@@ -1,0 +1,111 @@
+[gd_scene load_steps=15 format=3 uid="uid://biplob1ing777"]
+
+[ext_resource type="Script" path="res://scripts/world.gd" id="1"]
+[ext_resource type="Script" path="res://scripts/camera_rig.gd" id="2"]
+[ext_resource type="PackedScene" uid="uid://cplayer3person00" path="res://scenes/player.tscn" id="3"]
+[ext_resource type="PackedScene" uid="uid://chud3person000" path="res://scenes/hud.tscn" id="4"]
+[ext_resource type="PackedScene" uid="uid://cdummy3person00" path="res://scenes/dummy.tscn" id="5"]
+
+[sub_resource type="ProceduralSkyMaterial" id="SkyMat"]
+sky_top_color = Color(0.35, 0.42, 0.55, 1)
+sky_horizon_color = Color(0.72, 0.76, 0.8, 1)
+ground_bottom_color = Color(0.18, 0.18, 0.2, 1)
+ground_horizon_color = Color(0.72, 0.76, 0.8, 1)
+
+[sub_resource type="Sky" id="Sky"]
+sky_material = SubResource("SkyMat")
+
+[sub_resource type="Environment" id="Env"]
+background_mode = 2
+sky = SubResource("Sky")
+ambient_light_source = 3
+ambient_light_energy = 0.5
+tonemap_mode = 2
+
+[sub_resource type="BoxMesh" id="GroundMesh"]
+size = Vector3(40, 1, 40)
+
+[sub_resource type="BoxShape3D" id="GroundShape"]
+size = Vector3(40, 1, 40)
+
+[sub_resource type="StandardMaterial3D" id="GroundMat"]
+albedo_color = Color(0.32, 0.34, 0.33, 1)
+roughness = 0.95
+
+[sub_resource type="BoxMesh" id="WallMesh"]
+size = Vector3(0.6, 2.6, 3.2)
+
+[sub_resource type="BoxShape3D" id="WallShape"]
+size = Vector3(0.6, 2.6, 3.2)
+
+[sub_resource type="StandardMaterial3D" id="WallMat"]
+albedo_color = Color(0.45, 0.4, 0.36, 1)
+roughness = 0.9
+
+[node name="World" type="Node3D"]
+script = ExtResource("1")
+
+[node name="WorldEnvironment" type="WorldEnvironment" parent="."]
+environment = SubResource("Env")
+
+[node name="DirectionalLight3D" type="DirectionalLight3D" parent="."]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 8, 0)
+shadow_enabled = true
+
+[node name="Ground" type="StaticBody3D" parent="."]
+collision_layer = 1
+collision_mask = 0
+
+[node name="Mesh" type="MeshInstance3D" parent="Ground"]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0, -0.5, 0)
+mesh = SubResource("GroundMesh")
+material_override = SubResource("GroundMat")
+
+[node name="CollisionShape3D" type="CollisionShape3D" parent="Ground"]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0, -0.5, 0)
+shape = SubResource("GroundShape")
+
+[node name="WallR" type="StaticBody3D" parent="."]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 3.5, 1.3, -3)
+collision_layer = 1
+collision_mask = 0
+
+[node name="Mesh" type="MeshInstance3D" parent="WallR"]
+mesh = SubResource("WallMesh")
+material_override = SubResource("WallMat")
+
+[node name="CollisionShape3D" type="CollisionShape3D" parent="WallR"]
+shape = SubResource("WallShape")
+
+[node name="WallL" type="StaticBody3D" parent="."]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -3.5, 1.3, -3)
+collision_layer = 1
+collision_mask = 0
+
+[node name="Mesh" type="MeshInstance3D" parent="WallL"]
+mesh = SubResource("WallMesh")
+material_override = SubResource("WallMat")
+
+[node name="CollisionShape3D" type="CollisionShape3D" parent="WallL"]
+shape = SubResource("WallShape")
+
+[node name="Dummy1" parent="." instance=ExtResource("5")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -2.5, 0, -5)
+
+[node name="Dummy2" parent="." instance=ExtResource("5")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 0, -6.5)
+
+[node name="Dummy3" parent="." instance=ExtResource("5")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 2.5, 0, -5)
+
+[node name="Player" parent="." instance=ExtResource("3")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 0, 0)
+
+[node name="CameraRig" type="Node3D" parent="."]
+script = ExtResource("2")
+target_path = NodePath("../Player")
+
+[node name="Camera3D" type="Camera3D" parent="CameraRig"]
+current = true
+
+[node name="HUD" parent="." instance=ExtResource("4")]

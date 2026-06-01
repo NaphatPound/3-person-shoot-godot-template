@@ -1,0 +1,36 @@
+; Engine configuration file.
+; Third-Person Shooter (Aim & Shoot) 3D Template — see info.md / plan.md / logs.md
+;
+; Reconfigured from NaphatPound/godot-starter-pack:
+;   - renderer switched Forward+ / d3d12  ->  GL Compatibility (required for Web/WebGL2)
+;   - main scene, window size, and an input-action autoload added
+;   - Jolt physics kept (built-in in 4.6)
+
+config_version=5
+
+[application]
+
+config/name="Third-Person Shooter Template"
+run/main_scene="res://scenes/world.tscn"
+config/features=PackedStringArray("4.6", "GL Compatibility")
+config/icon="res://icon.svg"
+
+[autoload]
+
+GameInput="*res://scripts/game_input.gd"
+
+[display]
+
+window/size/viewport_width=1280
+window/size/viewport_height=720
+window/stretch/mode="canvas_items"
+
+[physics]
+
+3d/physics_engine="Jolt Physics"
+
+[rendering]
+
+renderer/rendering_method="gl_compatibility"
+renderer/rendering_method.mobile="gl_compatibility"
+textures/vram_compression/import_etc2_astc=true
