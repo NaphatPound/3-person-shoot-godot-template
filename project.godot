@@ -54,6 +54,8 @@ Weather="*res://scripts/systems/weather.gd"
 WeatherFX="*res://scripts/ui/weather_fx.gd"
 Companions="*res://scripts/systems/companions.gd"
 CompanionHUD="*res://scripts/ui/companion_hud.gd"
+Stats="*res://scripts/systems/stats.gd"
+StatsUI="*res://scripts/ui/stats_ui.gd"
 
 [display]
 
