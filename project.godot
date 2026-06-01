@@ -96,6 +96,8 @@ SafeZoneHUD="*res://scripts/ui/safe_zone_hud.gd"
 Notes="*res://scripts/systems/notes.gd"
 NotesUI="*res://scripts/ui/notes_ui.gd"
 SavePoints="*res://scripts/systems/savepoints.gd"
+Thirst="*res://scripts/systems/thirst.gd"
+ThirstHUD="*res://scripts/ui/thirst_hud.gd"
 
 [display]
 
