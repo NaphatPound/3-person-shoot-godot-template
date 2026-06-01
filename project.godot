@@ -30,6 +30,8 @@ Merchant="*res://scripts/systems/merchant.gd"
 MerchantUI="*res://scripts/ui/merchant_ui.gd"
 Weapons="*res://scripts/systems/weapons.gd"
 WeaponUI="*res://scripts/ui/weapon_ui.gd"
+Quests="*res://scripts/systems/quests.gd"
+QuestTracker="*res://scripts/ui/quest_tracker.gd"
 
 [display]
 
