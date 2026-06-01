@@ -41,6 +41,8 @@ SaveToast="*res://scripts/ui/save_toast.gd"
 DayNight="*res://scripts/systems/day_night.gd"
 Horde="*res://scripts/systems/horde.gd"
 WorldClockHUD="*res://scripts/ui/world_clock_hud.gd"
+Infection="*res://scripts/systems/infection.gd"
+InfectionHUD="*res://scripts/ui/infection_hud.gd"
 
 [display]
 
