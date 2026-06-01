@@ -78,6 +78,8 @@ MolotovsHUD="*res://scripts/ui/molotovs_hud.gd"
 Extraction="*res://scripts/systems/extraction.gd"
 ExtractionHUD="*res://scripts/ui/extraction_hud.gd"
 SaveExtra="*res://scripts/systems/save_extra.gd"
+Headshots="*res://scripts/systems/headshots.gd"
+HeadshotToast="*res://scripts/ui/headshot_toast.gd"
 
 [display]
 
