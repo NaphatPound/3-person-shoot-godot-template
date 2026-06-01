@@ -47,6 +47,8 @@ Stamina="*res://scripts/systems/stamina.gd"
 StaminaHUD="*res://scripts/ui/stamina_hud.gd"
 Storage="*res://scripts/systems/storage.gd"
 StorageUI="*res://scripts/ui/storage_ui.gd"
+Traps="*res://scripts/systems/traps.gd"
+TrapsHUD="*res://scripts/ui/traps_hud.gd"
 
 [display]
 
