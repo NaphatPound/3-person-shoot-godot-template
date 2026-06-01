@@ -56,6 +56,8 @@ Companions="*res://scripts/systems/companions.gd"
 CompanionHUD="*res://scripts/ui/companion_hud.gd"
 Stats="*res://scripts/systems/stats.gd"
 StatsUI="*res://scripts/ui/stats_ui.gd"
+NoiseMeter="*res://scripts/systems/noise.gd"
+NoiseHUD="*res://scripts/ui/noise_hud.gd"
 
 [display]
 
