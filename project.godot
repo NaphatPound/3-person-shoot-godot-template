@@ -60,6 +60,8 @@ NoiseMeter="*res://scripts/systems/noise.gd"
 NoiseHUD="*res://scripts/ui/noise_hud.gd"
 Barricades="*res://scripts/systems/barricades.gd"
 BarricadesHUD="*res://scripts/ui/barricades_hud.gd"
+Difficulty="*res://scripts/systems/difficulty.gd"
+DifficultyHUD="*res://scripts/ui/difficulty_hud.gd"
 
 [display]
 
