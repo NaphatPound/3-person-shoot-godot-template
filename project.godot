@@ -80,6 +80,7 @@ ExtractionHUD="*res://scripts/ui/extraction_hud.gd"
 SaveExtra="*res://scripts/systems/save_extra.gd"
 Headshots="*res://scripts/systems/headshots.gd"
 HeadshotToast="*res://scripts/ui/headshot_toast.gd"
+Bloodstains="*res://scripts/systems/bloodstains.gd"
 
 [display]
 
