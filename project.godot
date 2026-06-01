@@ -83,6 +83,7 @@ HeadshotToast="*res://scripts/ui/headshot_toast.gd"
 Bloodstains="*res://scripts/systems/bloodstains.gd"
 Tension="*res://scripts/systems/tension.gd"
 TensionFX="*res://scripts/ui/tension_fx.gd"
+Variants="*res://scripts/systems/variants.gd"
 
 [display]
 
