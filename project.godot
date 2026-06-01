@@ -50,6 +50,8 @@ StorageUI="*res://scripts/ui/storage_ui.gd"
 Traps="*res://scripts/systems/traps.gd"
 TrapsHUD="*res://scripts/ui/traps_hud.gd"
 Minimap="*res://scripts/ui/minimap.gd"
+Weather="*res://scripts/systems/weather.gd"
+WeatherFX="*res://scripts/ui/weather_fx.gd"
 
 [display]
 
