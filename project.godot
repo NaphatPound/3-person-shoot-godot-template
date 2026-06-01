@@ -104,6 +104,8 @@ ZombieGlow="*res://scripts/systems/zombie_glow.gd"
 Compass="*res://scripts/ui/compass.gd"
 Hazards="*res://scripts/systems/hazards.gd"
 HazardHUD="*res://scripts/ui/hazard_hud.gd"
+AmmoBoxes="*res://scripts/systems/ammo_boxes.gd"
+AmmoBoxToast="*res://scripts/ui/ammo_box_toast.gd"
 
 [display]
 
