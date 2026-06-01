@@ -45,6 +45,8 @@ Infection="*res://scripts/systems/infection.gd"
 InfectionHUD="*res://scripts/ui/infection_hud.gd"
 Stamina="*res://scripts/systems/stamina.gd"
 StaminaHUD="*res://scripts/ui/stamina_hud.gd"
+Storage="*res://scripts/systems/storage.gd"
+StorageUI="*res://scripts/ui/storage_ui.gd"
 
 [display]
 
