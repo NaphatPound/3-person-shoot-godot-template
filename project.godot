@@ -73,6 +73,8 @@ EventsBanner="*res://scripts/ui/events_banner.gd"
 HelpOverlay="*res://scripts/ui/help_overlay.gd"
 Crates="*res://scripts/systems/crates.gd"
 CratesToast="*res://scripts/ui/crates_toast.gd"
+Molotovs="*res://scripts/systems/molotovs.gd"
+MolotovsHUD="*res://scripts/ui/molotovs_hud.gd"
 
 [display]
 
