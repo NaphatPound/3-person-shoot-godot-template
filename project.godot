@@ -25,6 +25,9 @@ SurvivalStats="*res://scripts/systems/survival_stats.gd"
 SurvivalHUD="*res://scripts/ui/survival_hud.gd"
 InteractPrompt="*res://scripts/ui/interact_prompt.gd"
 Interaction="*res://scripts/systems/interaction.gd"
+Currency="*res://scripts/systems/currency.gd"
+Merchant="*res://scripts/systems/merchant.gd"
+MerchantUI="*res://scripts/ui/merchant_ui.gd"
 
 [display]
 
