@@ -77,6 +77,7 @@ Molotovs="*res://scripts/systems/molotovs.gd"
 MolotovsHUD="*res://scripts/ui/molotovs_hud.gd"
 Extraction="*res://scripts/systems/extraction.gd"
 ExtractionHUD="*res://scripts/ui/extraction_hud.gd"
+SaveExtra="*res://scripts/systems/save_extra.gd"
 
 [display]
 
