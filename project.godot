@@ -93,6 +93,8 @@ Rescues="*res://scripts/systems/rescues.gd"
 RescueToast="*res://scripts/ui/rescue_toast.gd"
 SafeZones="*res://scripts/systems/safe_zones.gd"
 SafeZoneHUD="*res://scripts/ui/safe_zone_hud.gd"
+Notes="*res://scripts/systems/notes.gd"
+NotesUI="*res://scripts/ui/notes_ui.gd"
 
 [display]
 
