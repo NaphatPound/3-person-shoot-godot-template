@@ -102,6 +102,8 @@ Radio="*res://scripts/systems/radio.gd"
 RadioHUD="*res://scripts/ui/radio_hud.gd"
 ZombieGlow="*res://scripts/systems/zombie_glow.gd"
 Compass="*res://scripts/ui/compass.gd"
+Hazards="*res://scripts/systems/hazards.gd"
+HazardHUD="*res://scripts/ui/hazard_hud.gd"
 
 [display]
 
