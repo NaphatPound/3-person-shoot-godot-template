@@ -71,6 +71,8 @@ PerksUI="*res://scripts/ui/perks_ui.gd"
 Events="*res://scripts/systems/events.gd"
 EventsBanner="*res://scripts/ui/events_banner.gd"
 HelpOverlay="*res://scripts/ui/help_overlay.gd"
+Crates="*res://scripts/systems/crates.gd"
+CratesToast="*res://scripts/ui/crates_toast.gd"
 
 [display]
 
