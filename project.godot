@@ -98,6 +98,8 @@ NotesUI="*res://scripts/ui/notes_ui.gd"
 SavePoints="*res://scripts/systems/savepoints.gd"
 Thirst="*res://scripts/systems/thirst.gd"
 ThirstHUD="*res://scripts/ui/thirst_hud.gd"
+Radio="*res://scripts/systems/radio.gd"
+RadioHUD="*res://scripts/ui/radio_hud.gd"
 
 [display]
 
