@@ -32,6 +32,8 @@ Weapons="*res://scripts/systems/weapons.gd"
 WeaponUI="*res://scripts/ui/weapon_ui.gd"
 Quests="*res://scripts/systems/quests.gd"
 QuestTracker="*res://scripts/ui/quest_tracker.gd"
+Crafting="*res://scripts/systems/crafting.gd"
+CraftingUI="*res://scripts/ui/crafting_ui.gd"
 
 [display]
 
